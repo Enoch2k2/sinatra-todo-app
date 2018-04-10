@@ -1,0 +1,14 @@
+<h1>Create a new todo</h1>
+
+<form action="/todos" method="post">
+  <div>
+    Name: <input type="text" name="todo[name]" id="name" />
+  </div>
+  <div>
+    Complete: <input type="checkbox" name="todo[complete]" id="complete" />
+  </div>
+  <div>
+    Due Date: <input type="date" name="todo[date]" id="date" />
+  </div>
+  <input type="submit" value="Create Todo" />
+</form>
